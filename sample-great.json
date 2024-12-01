@@ -1,0 +1,89 @@
+{
+    "transcription": [
+      {
+        "speaker": "Customer",
+        "text": "Hi, I'm having trouble connecting to the office Wi-Fi.",
+        "start_time": "00:00:01.000",
+        "end_time": "00:00:03.000",
+        "confidence": 0.98
+      },
+      {
+        "speaker": "Employee",
+        "text": "Hi! I'd be happy to help. Can you tell me the network name you're trying to connect to?",
+        "start_time": "00:00:03.500",
+        "end_time": "00:00:06.500",
+        "confidence": 0.96
+      },
+      {
+        "speaker": "Customer",
+        "text": "It's 'OfficeNet'.",
+        "start_time": "00:00:07.000",
+        "end_time": "00:00:08.000",
+        "confidence": 0.97
+      },
+      {
+        "speaker": "Employee",
+        "text": "Got it. Are you seeing any error messages?",
+        "start_time": "00:00:08.500",
+        "end_time": "00:00:10.500",
+        "confidence": 0.95
+      },
+      {
+        "speaker": "Customer",
+        "text": "Yes, it says 'Unable to connect'.",
+        "start_time": "00:00:11.000",
+        "end_time": "00:00:12.000",
+        "confidence": 0.98
+      },
+      {
+        "speaker": "Employee",
+        "text": "Understood. Let's try resetting your Wi-Fi adapter. Can you go to your network settings and click 'Disable', then 'Enable'?",
+        "start_time": "00:00:12.500",
+        "end_time": "00:00:17.000",
+        "confidence": 0.97
+      },
+      {
+        "speaker": "Customer",
+        "text": "Okay, I've done that.",
+        "start_time": "00:00:17.500",
+        "end_time": "00:00:19.000",
+        "confidence": 0.99
+      },
+      {
+        "speaker": "Employee",
+        "text": "Great. Now try reconnecting to the 'OfficeNet' network.",
+        "start_time": "00:00:19.500",
+        "end_time": "00:00:21.000",
+        "confidence": 0.96
+      },
+      {
+        "speaker": "Customer",
+        "text": "It worked! Thank you so much!",
+        "start_time": "00:00:21.500",
+        "end_time": "00:00:23.000",
+        "confidence": 0.99
+      },
+      {
+        "speaker": "Employee",
+        "text": "You're welcome! Is there anything else I can help you with?",
+        "start_time": "00:00:23.500",
+        "end_time": "00:00:25.000",
+        "confidence": 0.97
+      },
+      {
+        "speaker": "Customer",
+        "text": "No, that's all. Thanks again!",
+        "start_time": "00:00:25.500",
+        "end_time": "00:00:27.000",
+        "confidence": 0.98
+      },
+      {
+        "speaker": "Employee",
+        "text": "Have a great day!",
+        "start_time": "00:00:27.500",
+        "end_time": "00:00:29.000",
+        "confidence": 0.96
+      }
+    ]
+  }
+  
