@@ -89,7 +89,7 @@ export default function Home() {
     });
   
     try {
-      const response = await fetch("http://127.0.0.1:5000/upload-and-transcribe", {
+      const response = await fetch("http://127.0.0.1:5000/upload-and-analyze", {
         method: "POST",
         body: formData,
       });
