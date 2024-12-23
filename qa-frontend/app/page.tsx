@@ -82,17 +82,22 @@ export default function Home() {
       alert("Please select one or more audio files to upload.");
       return;
     }
+
+    if (audioFiles.length > 10) {
+      alert("Audio uploads are limited to 10 files per request.");
+      return;
+    }
   
     const formData = new FormData();
     audioFiles.forEach((file) => {
       formData.append("audio_files", file); // Adjust the key as expected by your backend
     });
     // Test data
-    formData.append("category_ids", [111, 333].join(","));
-    formData.append("question_ids", [111, 333].join(","));
-    formData.append("organization_id", "111");
-    formData.append("agent_id", "111");
-    formData.append("standard_id", "111");
+    formData.append("category_ids", [1].join(","));
+    formData.append("question_ids", [1].join(","));
+    formData.append("organization_id", "2");
+    formData.append("agent_id", "1");
+    formData.append("standard_id", "1");
   
     try {
       const response = await fetch("http://127.0.0.1:5000/upload-and-analyze", {
